@@ -23,9 +23,6 @@ public final class items {
                 null,null,null
         };
     }
-    public static ItemGroup DdggTech_material = new ItemGroup(new NamespacedKey(DdggTech.getProvidingPlugin(DdggTech.class),"MATERIAL"),new ItemStack(BEDROCK));
     public static SlimefunItemStack sandpaper = new SlimefunItemStack("DDGGTECH_MATERIAL_PAPER",new ItemStack(PAPER),"&e砂纸");
     public static SlimefunItemStack millstone = new SlimefunItemStack("DDGGTECH_MATERIAL_MILLSTONE",new ItemStack(COBBLESTONE),"&e磨盘");
-    public static SlimefunItem SANDPAPER = new SlimefunItem(DdggTech_material,sandpaper, RecipeType.ENHANCED_CRAFTING_TABLE,Recipes.sandpaper);
-    public static SlimefunItem MILLSTONE = new SlimefunItem(DdggTech_material,millstone, RecipeType.ENHANCED_CRAFTING_TABLE,Recipes.millstone);
 }
