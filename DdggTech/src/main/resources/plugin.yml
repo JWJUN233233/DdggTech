@@ -1,0 +1,10 @@
+name: DdggTech
+version: '${project.version}'
+main: me.ddggdd135.ddggtech.DdggTech
+prefix: \[ DdggTech \]
+depend: [ Slimefun ]
+authors: [ Ddggdd135 ]
+description: D科技
+softdepend:
+  - PlaceholderAPI
+  - Slimefun
